@@ -14,6 +14,9 @@ class ReceivingVC: UIViewController,DataSentDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        if let navigarionController = navigationController{
+//            navigationItem.rightBarButtonItem =
+        }
     }
     
     
@@ -22,8 +25,12 @@ class ReceivingVC: UIViewController,DataSentDelegate {
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "sendingVC"{
-            let sendingVC = segue.destination as! SendingVC
-            sendingVC.delegate = self
+            if let navigationController = segue.destination as? UINavigationController{
+                if let detailController = navigationController.visibleViewController as? SendingVC{
+                    detailController.delegate = self
+                    detailController.navigationItem.title = "Detail"
+                }
+            }
         }
     }
 }

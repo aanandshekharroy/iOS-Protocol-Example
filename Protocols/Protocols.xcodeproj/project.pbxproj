@@ -13,6 +13,7 @@
 		50891A721FDB839600BF0893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50891A711FDB839600BF0893 /* Assets.xcassets */; };
 		50891A751FDB839600BF0893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50891A731FDB839600BF0893 /* LaunchScreen.storyboard */; };
 		50891A7D1FDB83F000BF0893 /* SendingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50891A7C1FDB83F000BF0893 /* SendingVC.swift */; };
+		50E61EB01FDC1F0D0098DBFC /* PrimarySplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E61EAF1FDC1F0D0098DBFC /* PrimarySplitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		50891A741FDB839600BF0893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50891A761FDB839600BF0893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50891A7C1FDB83F000BF0893 /* SendingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingVC.swift; sourceTree = "<group>"; };
+		50E61EAF1FDC1F0D0098DBFC /* PrimarySplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimarySplitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				50891A731FDB839600BF0893 /* LaunchScreen.storyboard */,
 				50891A761FDB839600BF0893 /* Info.plist */,
 				50891A7C1FDB83F000BF0893 /* SendingVC.swift */,
+				50E61EAF1FDC1F0D0098DBFC /* PrimarySplitViewController.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E61EB01FDC1F0D0098DBFC /* PrimarySplitViewController.swift in Sources */,
 				50891A6D1FDB839600BF0893 /* ReceivingVC.swift in Sources */,
 				50891A7D1FDB83F000BF0893 /* SendingVC.swift in Sources */,
 				50891A6B1FDB839600BF0893 /* AppDelegate.swift in Sources */,
